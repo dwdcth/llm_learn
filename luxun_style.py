@@ -7,6 +7,8 @@ from langchain import PromptTemplate, LLMChain
 from langchain.llms import OpenAI
 from langchain.llms import AI21
 
+# pip install ai21 openai langchain
+
 gen_qa_template = """
 Please ask questions based on the following text and Follow the instructions below
 1. Ask related questions based on this passage.
